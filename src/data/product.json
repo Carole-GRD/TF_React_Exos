@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name" : "pain",
+        "price" : 2.1,
+        "promo" : false
+    },
+    {
+        "id" : 2,
+        "name" : "pack d'eau",
+        "price" : 3.05,
+        "promo" : true
+    },
+    {
+        "id" : 3,
+        "name" : "pomme",
+        "price" : 0.95,
+        "promo" : false
+    },
+    {
+        "id" : 4,
+        "name" : "gel douche",
+        "price" : 6,
+        "promo" : true
+    },
+    {
+        "id" : 5,
+        "name" : "shampoing",
+        "price" : 5.49,
+        "promo" : true
+    },
+    {
+        "id" : 6,
+        "name" : "t-shirt",
+        "price" : 10,
+        "promo" : false
+    }
+]

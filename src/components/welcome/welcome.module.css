@@ -1,0 +1,16 @@
+.name-msg {
+    color: blue;
+    font-style: 2rem;
+    font-weight: bold;
+}
+
+.age-msg {
+    color: goldenrod;
+    font-style: 1.2rem;
+    font-style: italic;
+}
+
+.bg {
+    background-color: cyan;
+}
+
