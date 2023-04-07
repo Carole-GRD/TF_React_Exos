@@ -4,14 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import productData from './data/product.json';
-import Calculator from './components/calculator-form/calculator-form';
 
 // import Welcome from './components/welcome/welcome'
 // import ProductCollection from './components/product-collection/product-collection'
 // import Counter from './components/counter/counter';
+// import Calculator from './components/calculator-form/calculator-form';
+import TodoList from './components/todo-list/todo-list';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -27,8 +27,11 @@ function App() {
       <Counter incr={1} />
       <Counter incr={5} /> */}
 
-      <h2>Exo 04 - Calculator (Form)</h2>
-      <Calculator />
+      {/* <h2>Exo 04 - Calculator (Form)</h2>
+      <Calculator /> */}
+
+      <h2>Exo 05 - TODO List</h2>
+      <TodoList />
     </div>
   )
 }
