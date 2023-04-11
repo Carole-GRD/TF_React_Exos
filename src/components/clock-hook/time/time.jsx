@@ -50,8 +50,7 @@ const TimeComponent = () => {
 
     return (
         <>
-            <p>{time !== '0:0:0' && time}</p>
-            {/* <p>{time}</p> */}
+            <p>{time === '0:0:0' ? 'Loading ...' : time}</p>
         </>
     )
 }
