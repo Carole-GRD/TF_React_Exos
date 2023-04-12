@@ -1,11 +1,11 @@
 
 
-const ResponseDisplay = ( { city, temp, feels_like, country, description, humidity, rain, clouds, icon } ) => {
+const ResponseDisplay = ( { city, temp, feels_like, country, description, humidity, rain, clouds, iconUrl } ) => {
 
     return (
         <>
             <h2>{city}</h2>
-            <img src={icon} alt="Icône" />
+            <img src={iconUrl} alt="Icône" />
             <p>Température : {temp}</p>
             <p>Temprature ressentie : {feels_like}</p>
             <p>Pays : {country}</p>

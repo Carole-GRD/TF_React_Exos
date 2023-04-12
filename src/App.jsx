@@ -18,6 +18,8 @@ function App() {
 
   return (
     <div className="App">
+      {/* CORRECTION des exos : https://github.com/FormCours/TF_2022_FS_Web__React_Exo */}
+
       <h1>Exos</h1>
 
       {/* <h2>Exo 01 - Welcome</h2>
