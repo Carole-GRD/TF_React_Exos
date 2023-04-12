@@ -10,7 +10,9 @@ import './App.css'
 // import Counter from './components/counter/counter';
 // import Calculator from './components/calculator-form/calculator-form';
 // import TodoList from './components/todo-list/todo-list';
-import Clock from './containers/clock/clock';
+// import Clock from './containers/clock/clock';
+import Weather from './containers/weather-ajax/weather-ajax';
+
 
 function App() {
 
@@ -34,8 +36,11 @@ function App() {
       {/* <h2>Exo 05 - TODO List</h2>
       <TodoList /> */}
 
-      <h2>Exo 06 - Clock</h2>
-      <Clock />
+      {/* <h2>Exo 06 - Clock</h2>
+      <Clock /> */}
+
+      <h2>Exo 07 - Weather (Ajax)</h2>
+      <Weather />
     </div>
   )
 }
